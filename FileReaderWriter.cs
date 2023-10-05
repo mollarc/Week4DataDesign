@@ -33,7 +33,7 @@ namespace Week4DataDesign
                     if (fieldNum == line.Length)// Resets fieldnum and starts a new line for the next set of information
                     {
                         fieldNum = 0;
-                        writer.WriteLine();
+                        writer.WriteLine(Environment.NewLine);
                     }
                     else
                     {

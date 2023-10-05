@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            FileReaderWriter readerWriter = new FileReaderWriter();
-            readerWriter.ReadAndWriteTextFile();
-            readerWriter.ReadAndWriteCSVFile();
+            Parser parser = new Parser();
+            parser.Parse();
         }
     }
 }
